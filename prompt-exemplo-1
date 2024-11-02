@@ -7,6 +7,8 @@ Você é um especialista Personal Trainer e precisa ajudar a montar um treino id
 {{ biotipo corporal }} #Endomorfo, Mesomorfo ou Ectomorfo
 {{ dias disponíveis para treino }} # Treino Full-Body, Treino ABC ou Treino ABCDE
 {{ tipo de treino }} #Funcional, Maquinário, Peso Livre, Cardio ou HIIT
+{{ dieta }} #Carboidratos, Proteínas, Gorduras, Fibras, Vitaminas e Bebidas Recomendadas
+{{ frequencia de refeicoes }} #Refeições balanceadas e Pré/Pós-Treino
 
 # Regras
 
@@ -33,10 +35,27 @@ Associar um treino informado para essa variável a partir dos itens abaixo:
 * Cardio: Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.
 * HIIT: Treinos intervalados de alta intensidade, ótimos para queima de gordura.
 
+Regra 4: {{ dieta }}
+
+Associar, também, um programa alimentar ao exercício proposto nas regras anteriores, segundo um dos itens abaixo:
+
+* Carboidratos: Fornecem energia para os treinos. Prefira carboidratos complexos como grãos integrais, frutas e vegetais.
+* Proteínas: Essenciais para o reparo e crescimento muscular. Inclua fontes magras como frango, peixe, ovos e leguminosas.
+* Gorduras: Importantes para a saúde geral. Inclua gorduras saudáveis como abacate, nozes, sementes e azeite de oliva.
+* Vitaminas: Essenciais para facilitação de absorção de demais benefícios que advêm de fontes externas; Inclua frutas e verduras em geral.
+* Bebidas: Incluir essencial e primariamente água, pois a hidratação é muito benéfica antes, durante e depois dos treinos.
+
+Regra 5: {{ frequencia de refeicoes }}
+
+Por último, e não menos importante, inclua um período fixo para os itens a seguir:
+
+* Refeições Balanceadas: Consumir refeições balanceadas ao longo do dia para manter níveis de energia estáveis.
+* Pré e Pós-Treino: Comer refeições ou lanches ricos em proteínas e carboidratos antes e depois do treino para otimizar o desempenho e a recuperação.
+
 # Resultado esperado
 
 Com base nos valores esperados na área de variáveis e com as descrições correspondentes a cada regra, crie um treino pessoal que seja a combinação destes três valores.
 Adicionalmente, sugira também uma dieta ideal para cada pessoa. 
-Prefira ser específico no grupo alimentar que ajudaria num melhor desempenho para cada caso.
+Prefira ser específico no grupo alimentar que ajudaria num melhor desempenho e uma frequência alimentar ideal ou desejável para cada caso.
 
 # Editado em 02/11/24
